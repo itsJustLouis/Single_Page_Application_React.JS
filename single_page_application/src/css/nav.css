@@ -1,0 +1,35 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root{
+    --background-color: #030014;
+    --background-light: #fff;
+    --shadow-colour: rgba(0,0,0,0.2);
+    --primary-color:rgb(183, 0, 255);
+    --text-color:#fff;
+    --text-light: #575757;
+    --font-size:16px;
+    --animation-speed:1;
+ }
+ .home-main{
+    height: 100%;
+    width: 100%;
+ }
+ /* .flex{
+    flex-flow: column;
+    height: 850px;
+    gap: 20px;
+ } */
+ 
+ *{
+     /* margin: 0;
+     padding: 0; */
+     background-color: var(--background-color);
+ }
+ /* body{
+     font-size: var(--font-size);
+     
+     font-family: "Roboto", sans-serif;
+ } */

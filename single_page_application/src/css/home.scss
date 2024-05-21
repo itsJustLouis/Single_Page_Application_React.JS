@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --background-color: #030014;
+  --background-light: #fff;
+  --shadow-colour: rgba(0, 0, 0, 0.2);
+  --primary-color: rgb(183, 0, 255);
+  --text-color: #fff;
+  --text-light: #575757;
+  --font-size: 16px;
+  /* --animation-speed:1; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+}
+body {
+  background-color: var(--background-color);
+}
+.Welcome-text {
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+}
+// main {
+//   height: 100vh;
+// }
+.hero{
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #030014, #111132);
+  position: relative;
+  z-index: -10;
+  .wrapper{
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    .textContainer{
+      color: whitesmoke;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      h2{
+        font-size: 30px ;
+        color: rebeccapurple;
+        letter-spacing: 10px;
+      }
+      h1{
+        font-size: 88px;
+      }
+      .buttons{
+        button{
+          padding: 20px;
+          border: 1px solid whitesmoke;
+          border-radius: 10px;
+          background-color: transparent;
+          color: whitesmoke;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
+        }
+      }
+
+      img{
+        width: 50px;
+      }
+    }
+  }
+
+  .imageContainer{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    width: 50%;
+    font-weight: bold;
+    color: #b748ee17;
+  }
+
+}
+
+
+ 

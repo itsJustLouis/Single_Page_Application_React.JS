@@ -1,22 +1,17 @@
 import React from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import '../css/nav.css';
-import '../css/global.css';
-import Blackhole from "../components/sub/blackhole";
-import HomeContent from "../components/sub/HomeContent";
+import "../css/home.scss";
+import HomeContent from "../components/HomeContent";
 
 function Home() {
     return (
-        <main className="h-full w-full">
-            <section className="flex flex-col h-[850px] gap-20" >
-
-                <Blackhole />
+        <main>
+            <section>
+                <NavBar />
                 <HomeContent />
                 {/* <h2>Home Page</h2> */}
-                {/* <NavBar /> */}
                 {/* <Header /> */}
-
 
             </section>
         </main>

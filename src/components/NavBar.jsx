@@ -28,7 +28,16 @@ function NavBar() {
           <button>
             <img src="/facebook.png" alt="" />
           </button>
-          <a href="#">
+          <button>
+            <img src="/instagram.png" alt="" />
+          </button>
+          <button>
+            <img src="/youtube.png" alt="" />
+          </button>
+          <button>
+            <img src="/facebook.png" alt="" />
+          </button>
+          {/* <a href="#">
             <img src="/instagram.png" alt="" />
           </a>
           <a href="#">
@@ -36,7 +45,7 @@ function NavBar() {
           </a>
           <a href="#">
             <img src="/facebook.png" alt="" />
-          </a>
+          </a> */}
         </article>
       </section>
     </nav>

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Single_Page_Application_React.JS/static/css/main.50a2e8ad.css",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.a394e550.js",
+    "index.html": "/Single_Page_Application_React.JS/index.html",
+    "main.50a2e8ad.css.map": "/Single_Page_Application_React.JS/static/css/main.50a2e8ad.css.map",
+    "main.a394e550.js.map": "/Single_Page_Application_React.JS/static/js/main.a394e550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50a2e8ad.css",
+    "static/js/main.a394e550.js"
+  ]
+}

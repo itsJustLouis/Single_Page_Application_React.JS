@@ -1,7 +1,6 @@
 import React from "react";
 // import Header from "../components/Header";
 import NavBar from "../components/NavBar";
-import "../css/home.scss";
 import HomeContent from "../components/HomeContent";
 
 function Home() {

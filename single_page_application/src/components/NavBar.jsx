@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/navbar.scss";
-// import "../css/global.scss";
 import { motion } from "framer-motion";
 import Sidebar from "./Sidebar";
 

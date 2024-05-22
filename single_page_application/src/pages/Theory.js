@@ -1,15 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
 import NavBar from "../components/NavBar";
+import TheoryContent from "../components/TheoryContent";
 
 
 function Theory() {
     return (
-        <React.Fragment>
-            <h2>Theory Page</h2>
-            <NavBar />
-            <Header />
-        </React.Fragment>
+        <main>
+            <section><NavBar /></section>
+            <section><TheoryContent /></section>
+        </main>
     )
 }
 export default Theory;

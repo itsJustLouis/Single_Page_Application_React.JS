@@ -1,5 +1,6 @@
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import React from "react";
+import "../css/home.scss";
 
 function HomeContent() {
   const textVariants = {

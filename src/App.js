@@ -13,7 +13,7 @@ import NoPage from "./pages/NoPage";
 function App() {
   return (
     <React.Fragment >
-      <BrowserRouter>
+      <BrowserRouter basename="/Single_Page_Application_React.JS">
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />

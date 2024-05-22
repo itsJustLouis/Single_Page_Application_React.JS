@@ -6,9 +6,9 @@ function NoPage() {
     return (
         <React.Fragment>
             <Header />
+            <NavBar />
             <h2>Error 404: Not Found!</h2>
             <h3>Click the Link Below to return Home</h3>
-            <NavBar />
         </React.Fragment>
     )
 }

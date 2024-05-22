@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import React from "react";
 import "../css/home.scss";
+import scroll from "../images/scroll.png";
+import hero from "../images/hero.png";
 
 function HomeContent() {
   const textVariants = {
@@ -49,7 +51,7 @@ function HomeContent() {
             <motion.button variants={textVariants}>View Artworks</motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.section>
-          <motion.img src="/scroll.png" alt="" variants={textVariants} />
+          <motion.img src={scroll} alt="" variants={textVariants} />
         </motion.section>
       </section>
       <motion.section
@@ -61,7 +63,7 @@ function HomeContent() {
         Programmer Designer Writter Game Maker
       </motion.section>
       <section className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src={hero} alt="" />
       </section>
 
       {/* <h1 className="Welcome-text">Welcome to Louis Monawe's HomePage</h1> */}

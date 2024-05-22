@@ -2,6 +2,9 @@ import React from "react";
 import "../css/navbar.scss";
 import { motion } from "framer-motion";
 import Sidebar from "./Sidebar";
+import facebook from "../images/facebook.png";
+import instagram from "../images/instagram.png";
+import youtube from "../images/youtube.png";
 
 function NavBar() {
   return (
@@ -26,16 +29,13 @@ function NavBar() {
         </motion.span>
         <article className="social">
           <button>
-            <img src="/facebook.png" alt="" />
+            <img src={facebook} alt="" />
           </button>
           <button>
-            <img src="/instagram.png" alt="" />
+            <img src={instagram} alt="" />
           </button>
           <button>
-            <img src="/youtube.png" alt="" />
-          </button>
-          <button>
-            <img src="/facebook.png" alt="" />
+            <img src={youtube} alt="" />
           </button>
           {/* <a href="#">
             <img src="/instagram.png" alt="" />

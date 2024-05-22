@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/theory.scss";
 import { motion } from "framer-motion";
+import scroll from "../images/scroll.png";
+import baghi from "../images/bhaghi.png";
 
 function TheoryContent() {
   const textVariant = {
@@ -67,7 +69,7 @@ function TheoryContent() {
 
           <motion.section className="scrollBtn">
             <motion.img
-              src="/scroll.png"
+              src={scroll}
               alt=""
               variants={textVariant}
               animate="scrollButton"
@@ -111,7 +113,7 @@ function TheoryContent() {
             initial={{ opacity: 0, scale: 0.1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 8 }}
-            src="/bhaghi.png"
+            src={baghi}
             alt="Figure 1, My chosen Artwork"
             className="netArt"
           />

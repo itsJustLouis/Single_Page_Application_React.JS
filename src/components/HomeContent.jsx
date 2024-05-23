@@ -43,7 +43,9 @@ function HomeContent() {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>LOUIS MONAWE</motion.h2>
+          <motion.h2 variants={textVariants} className="nameTxt">
+            LOUIS MONAWE
+          </motion.h2>
           <motion.h1 variants={textVariants}>
             Web Developer and Game Designer
           </motion.h1>

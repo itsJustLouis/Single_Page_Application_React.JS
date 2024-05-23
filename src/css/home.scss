@@ -23,21 +23,21 @@
 body {
   background-color: var(--background-color);
 }
-.Welcome-text {
-  font-weight: 400;
-  font-style: normal;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
-    linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
-  background-blend-mode: normal, screen;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 25px;
-}
+// .Welcome-text {
+//   font-weight: 400;
+//   font-style: normal;
+//   background: linear-gradient(
+//       0deg,
+//       rgba(255, 255, 255, 0.4),
+//       rgba(255, 255, 255, 0.4)
+//     ),
+//     linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+//   background-blend-mode: normal, screen;
+//   -webkit-background-clip: text;
+//   background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   font-size: 25px;
+// }
 // main {
 //   height: 100vh;
 // }
@@ -67,6 +67,16 @@ body {
       }
       h1{
         font-size: 88px;
+          background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    linear-gradient(90.01deg, #e59cff 0.01%, #9cb2ff 50.01%, #4167ee 100%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
       }
       .buttons{
         button{

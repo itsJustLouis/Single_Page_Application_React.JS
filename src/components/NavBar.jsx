@@ -11,13 +11,6 @@ function NavBar() {
     <nav className="navbar">
       {/* {Sidebar} */}
       <Sidebar />
-      {/* <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/theory">Theory</Link></li>
-            <li><Link to="/design">Design</Link></li>
-            <li><Link to="/webart">WebArt</Link></li>
-            <li><Link to="/profile">Profile</Link></li>
-        </ul> */}
 
       <section className="wrapper">
         <motion.span

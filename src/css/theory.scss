@@ -56,7 +56,7 @@ body {
     box-sizing: border-box; /* Ensure padding is included in the height */
     z-index: 20;
     .textContainers{
-      color: whitesmoke;
+      color: #b08eff;
       width: 100%;
       height: auto;
       display: flex;
@@ -64,14 +64,27 @@ body {
       justify-content: center;
       text-align: center;
       gap: 40px;
-
+      
+      
       h2{
         font-size: 30px ;
         color: rebeccapurple;
         letter-spacing: 10px;
+        font-weight: 800;
       }
       h1{
         font-size: 88px;
+        font-style: normal;
+          background: linear-gradient(
+              0deg,
+              rgba(255, 255, 255, 0.4),
+              rgba(255, 255, 255, 0.4)
+            ),
+            linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #6c82d1 100%);
+          background-blend-mode: normal, screen;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
       }
       .buttonss{
         button{

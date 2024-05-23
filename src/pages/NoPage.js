@@ -1,14 +1,14 @@
-import Header from "../components/Header";
 import React from "react";
+import "../css/noPage.scss";
 import NavBar from "../components/NavBar";
 
 function NoPage() {
     return (
         <React.Fragment>
-            <Header />
             <NavBar />
-            <h2>Error 404: Not Found!</h2>
-            <h3>Click the Link Below to return Home</h3>
+            <section className="center-container">
+                <h2 className="err">Error 404: Page Not Found!</h2>
+            </section>
         </React.Fragment>
     )
 }

@@ -6,7 +6,7 @@ import WebArt from "./pages/InternetArt";
 import Theory from "./pages/Theory";
 import Profile from "./pages/Profile";
 import NoPage from "./pages/NoPage";
-
+import Contact from "./pages/Contact";
 
 
 
@@ -21,6 +21,7 @@ function App() {
           <Route path="/design" element={<Design />} />
           <Route path="/webart" element={<WebArt />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> {/* this is for when you search for a tab that does not exist */}
         </Routes>
       </BrowserRouter>

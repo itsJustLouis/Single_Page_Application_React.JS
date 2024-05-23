@@ -62,6 +62,14 @@ function Links() {
         >
           <Link to="/profile">Profile</Link>
         </motion.li>
+
+        <motion.li
+          variants={itemVariants}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <Link to="/contact">Contact</Link>
+        </motion.li>
       </ul>
     </motion.nav>
   );

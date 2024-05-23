@@ -1,0 +1,64 @@
+
+.contact{
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+.txtContainer{
+    background: linear-gradient(
+             0deg,
+         rgba(255, 255, 255, 0.4),
+         rgba(255, 255, 255, 0.4)
+         ),
+             linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+             background-blend-mode: normal, screen;
+            -webkit-background-clip: text;
+             background-clip: text;
+            -webkit-text-fill-color: transparent;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    h1{
+        font-size: 100px;
+        line-height: 88px;
+      }
+      span{
+        font-weight: 300;
+      }
+}
+.formContainer{
+    flex: 1;
+    position: relative;
+    color: aliceblue;
+    // .phoneSvg{
+    //     position: absolute;
+    //     margin: auto;
+    // }
+
+    form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input, textarea{
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button{
+            padding: 20px;
+            border: none;
+            background-color: #ba9cff;
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+}

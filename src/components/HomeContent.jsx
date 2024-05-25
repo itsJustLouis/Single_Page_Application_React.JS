@@ -6,6 +6,7 @@ import hero from "../images/hero.png";
 
 function HomeContent() {
   const textVariants = {
+    //Variants allow me to create smooth animations using the initial state and the animate state, from framermotion.
     initial: {
       x: -500,
       opacity: 0,
@@ -37,7 +38,7 @@ function HomeContent() {
   return (
     <main className="hero">
       <section className="wrapper">
-        <motion.section
+        <motion.section //This is the main container that will animate from the initial to the animate state.
           className="textContainer"
           variants={textVariants}
           initial="initial"

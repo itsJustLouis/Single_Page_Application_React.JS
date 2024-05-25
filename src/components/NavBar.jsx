@@ -13,7 +13,7 @@ function NavBar() {
       <Sidebar />
 
       <section className="wrapper">
-        <motion.span
+        <motion.span //This is the main container that will animate from the initial to the animate state.
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}

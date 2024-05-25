@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+  }
+
+  
+  .style-guide {
+    padding: 20px;
+    font-family: 'Poetsen One', sans-serif;
+    text-align: center;
+    h1, h2 {
+      color: #ba9cff;
+    }
+  
+    /* Fonts Section */
+    .fonts {
+      margin-bottom: 20px;
+  text-align: center;
+      .font-sample {
+        .font-primary {
+          font-family: 'Poetsen One', sans-serif;
+          font-size: 18px;
+          color: #ba9cff;;
+        }
+      }
+    }
+  
+    /* Colors Section */
+    .colors {
+      margin-bottom: 20px;
+      align-items: center;
+          justify-content: center;
+  
+      .color-sample {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+          justify-content: center;
+  
+        .color-box {
+          width: 100px;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 14px;
+          border-radius: 8px;
+        }
+  
+        .dark-color {
+          background-color: #030014;
+        }
+  
+        .primary-color {
+          background-color: #e59cff;
+        }
+  
+        .secondary-color {
+          background-color: #ba9cff;
+        }
+  
+        .mid-color {
+          background-color: #6c82d1;
+        }
+  
+        .light-color {
+          background-color: #ecf0f1;
+          color: #333;
+        }
+      }
+    }
+  
+    /* Buttons Section */
+    .buttons {
+        align-items: center;
+          justify-content: center;
+      .button-sample {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+          justify-content: center;
+  
+        .btn-primary {
+          background-color: #e59cff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+  
+        .btn-secondary {
+          background-color: #ba9cff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+  
+        .btn-outline {
+          background-color: transparent;
+          color: #333;
+          border: 2px solid #333;
+          padding: 10px 20px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+   /* Media queries for responsiveness */
+   @media (max-width: 850px) {
+    .colors .color-sample,
+    .buttons .button-sample {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;   /* Center items horizontally */
+    }
+
+    .colors .color-sample .color-box,
+    .buttons .button-sample button {
+      width: 100%; /* Make items take full width */
+      max-width: 300px; /* Optionally set a max width */
+      margin-bottom: 10px; /* Add margin for spacing */
+    }
+  }

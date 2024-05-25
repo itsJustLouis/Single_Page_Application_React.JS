@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 function Links() {
   const variants = {
+    //Variants allow me to create smooth animations using the initial state and the animate state, in this state, i used conditions through the open and closed state, from framermotion.
     open: {
       transition: {
         staggerChildren: 0.1,

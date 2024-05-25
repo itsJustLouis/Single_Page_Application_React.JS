@@ -5,7 +5,7 @@ import Links from "./sub/sidebarLinks/Links";
 import ToggleButton from "./sub/sidebarLinks/ToggleButton";
 
 function Sidebar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false); //Variants allow me to create smooth animations using the initial state and the animate state, with this one though, i used the setOpen and Open states to use conditions, from framermotion.
   const variants = {
     open: {
       clipPath: "circle(1200px at 50px 50px)",
@@ -26,6 +26,7 @@ function Sidebar() {
   };
 
   return (
+    //This is the main container that will animate from the initial to the animate state.
     <motion.section className="sidebar" animate={open ? "open" : "closed"}>
       <motion.section className="bg" variants={variants}>
         <Links />

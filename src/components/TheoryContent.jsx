@@ -6,6 +6,7 @@ import baghi from "../images/bhaghi.png";
 
 function TheoryContent() {
   const textVariant = {
+    //Variants allow me to create smooth animations using the initial state and the animate state, from framermotion.
     initial: {
       x: -500,
       opacity: 0,
@@ -59,14 +60,20 @@ function TheoryContent() {
   return (
     <main className="heros">
       <section className="wrappers">
-        <motion.section
+        <motion.h2
+          className="headone"
+          variants={textVariant}
+          initial="initial"
+          animate="animate"
+        >
+          Essay on Net/Web Art
+        </motion.h2>
+        <motion.section //This is the main container that will animate from the initial to the animate state.
           className="textContainers"
           variants={textVariant}
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariant}>Essay on Net/Web Art</motion.h2>
-
           <motion.section className="scrollBtn">
             <motion.img
               src={scroll}
@@ -222,7 +229,7 @@ function TheoryContent() {
         initial="initial"
         animate="animate"
       >
-        Web Developer
+        Amazing Web Designer
       </motion.section>
     </main>
   );

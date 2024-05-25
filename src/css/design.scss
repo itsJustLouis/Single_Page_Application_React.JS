@@ -1,0 +1,134 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+//   width: 15%;
+   width: calc(20% - 20px); /* Adjust to make responsive */
+  max-width: 300px; /* Maximum width for larger screens */
+  cursor: pointer;
+}
+
+.gallery-item img {
+  border-bottom: 1px solid #ddd;
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.gallery-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  max-width: 90%; // Adjust the width as necessary
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-content p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  max-width: 70%; // Adjust the width as necessary
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+// Media query for phones
+@media only screen and (max-width: 850px) {
+    .gallery {
+      flex-direction: column; // Change flex direction to column
+      align-items: center; // Center items vertically
+    }
+      .gallery-item {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        padding: 10px;
+        text-align: center;
+        width: calc(90% - 20px); /* Adjust to make responsive */
+        max-width: 300px; /* Maximum width for larger screens */
+        cursor: pointer;
+      }
+      
+      .gallery-item img {
+        border-bottom: 1px solid #ddd;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .gallery-item p {
+        margin: 0;
+        font-size: 11px;
+        color: #333;
+      }
+      
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+      
+      .modal-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+      }
+      
+      .modal-content img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .modal-content p {
+        margin-top: 10px;
+        font-size: 10px;
+        color: #333;
+      }
+  }

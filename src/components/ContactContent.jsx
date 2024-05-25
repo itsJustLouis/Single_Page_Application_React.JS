@@ -25,7 +25,7 @@ function ContactContent() {
         }
       );
   };
-
+  //variants will allow me to create animations with ease using framer motion, here i will slow down the way in wich the text that shows contact informations comes onto the screen
   const variants = {
     initial: {
       y: 500,
@@ -42,7 +42,7 @@ function ContactContent() {
   };
 
   return (
-    <motion.section
+    <motion.section //This is the main container that will animate from the initial to the animate state.
       className="contact"
       variants={variants}
       initial="initial"

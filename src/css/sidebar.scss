@@ -1,3 +1,4 @@
+@import "../css/global.scss";
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -6,6 +7,10 @@
     background-color: antiquewhite;
     color: #030014;
     z-index: 20;
+    @include tablet{
+        align-items: center;
+    justify-content: center;
+       }
 
     .bg{
         position: fixed;
@@ -14,7 +19,9 @@
         bottom: 0;
         width: 400px;
         background: rgb(244, 198, 241);
-
+        @include minifiedmobile{
+            width: 50%;
+        }
         .links{
             position: absolute;
             width: 100%;
@@ -24,9 +31,17 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
+            @include tablet{
+                align-items: center;
+            justify-content: center;
+            height: 85%;
+               }
 
             a{
                 font-size: 40px;
+                @include tablet{
+                    font-size: 20px;
+                   }
             }
         }
     }

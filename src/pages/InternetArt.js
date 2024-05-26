@@ -1,14 +1,18 @@
 import React from "react";
-import Header from "../components/Header"
 import NavBar from "../components/NavBar";
+import "../css/noPage.scss"
+
 
 function WebArt() {
     return (
-        <React.Fragment>
-            <h2>Internet Art Page</h2>
+        <nav>
             <NavBar />
-            <Header />
-        </React.Fragment>
+            <main className="webArt">
+                <h2>Beautiful Web Art Coming Soon</h2>
+
+            </main>
+        </nav>
+
     )
 }
 export default WebArt;

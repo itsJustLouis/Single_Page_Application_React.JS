@@ -5,16 +5,13 @@ import "../css/design.scss";
 
 import wireframe01 from "../images/MobileHomePage.png";
 import wireframe02 from "../images/PCHomePage.png";
-import wireframe03 from "../images/MobileEssayPage.png";
-import wireframe04 from "../images/PCEssayPage.png";
+import wireframe03 from "../images/PCEssayPage.png";
+import wireframe04 from "../images/MobileEssayPage.png";
 import wireframe05 from "../images/PCDesignPage01.png";
 import wireframe06 from "../images/PCDesignPage02.png";
-import wireframe07 from "../images/MobileHomePage.png";
-import wireframe08 from "../images/MobileHomePage.png";
-import wireframe09 from "../images/MobileHomePage.png";
-import wireframe10 from "../images/MobileHomePage.png";
-import wireframe11 from "../images/MobileHomePage.png";
-import wireframe12 from "../images/MobileHomePage.png";
+import wireframe07 from "../images/profilePC.png";
+import wireframe08 from "../images/profileMobile.png";
+import wireframe09 from "../images/errorPage.png";
 // wireframes
 const wireframes = [
   {
@@ -24,27 +21,47 @@ const wireframes = [
   {
     src: wireframe02,
     description:
-      "Homepage for my Larger Screen Mobile Web Application: I chose this style because, as a portfolio web application, i want the people who are going to be looking at it, to see me first, see who they are going to know in this web application and what i am capable of. With the colours, i chose a bit of dark but visible colour because, i dont want when you to decrease your brightness when opening my application, and because maily i love darkmode.",
-  },
-  { src: wireframe03, description: "Style guide for wireframe 3" },
-  { src: wireframe04, description: "Style guide for wireframe 4" },
-  { src: wireframe05, description: "Style guide for wireframe 5" },
-  { src: wireframe06, description: "Style guide for wireframe 6" },
-  { src: wireframe07, description: "Style guide for wireframe 7" },
-  { src: wireframe08, description: "Style guide for wireframe 8" },
-  { src: wireframe09, description: "Style guide for wireframe 9" },
-  {
-    src: wireframe10,
-    description: "Style guide for wireframe 10",
+      "As a portfolio web application, i want the people who are going to be looking at this to see me first, see who made this web app. With the colours, i chose a bit of dark but visible colour because, i dont want when you to decrease your brightness when opening my application, and because maily i love darkmode.",
   },
   {
-    src: wireframe11,
-    description: "Style guide for wireframe 11",
+    src: wireframe03,
+    description:
+      "With this Essay page, i thought about keeping it simple and just have the content there, the selling point will be in this case, the animations the moment you load the page. i wanted some eye catching animations the moment you load the page, with colours that are warm yet dark.",
   },
   {
-    src: wireframe12,
-    description: "Style guide for wireframe 12",
+    src: wireframe04,
+    description:
+      "In the end i changed how my navigation bar looks like and didnt include the buttons at the top because i wanted a unique design, i loved how the navigation bar opens up, and i saw that as a selling point so i decided to keep it for the entire web application.",
   },
+  {
+    src: wireframe05,
+    description:
+      "With this page, i first though of making the images apear as you scroll but that seemed to be too much, so i didnt want animations that are just too much and complicated, so i decided to go with one where the images load up one by one, as in they are flying in.",
+  },
+  { src: wireframe06, description: "Mobile Web Application for Design page" },
+  {
+    src: wireframe07,
+    description:
+      "I just kept this simple, just like how you would expect a profile page to look like",
+  },
+  { src: wireframe08, description: "Profile page for Mobile" },
+  {
+    src: wireframe09,
+    description:
+      "This extra page is for incase you try to navigate to a page that does not exist, you will land here, saw this with many websites that if you try to navigate to a page that does not exist, especially with github, when you website is not uploaded, there is a page it redirects you to, thought id take inspiration from that",
+  },
+  // {
+  //   src: wireframe10,
+  //   description: "Style guide for wireframe 10",
+  // },
+  // {
+  //   src: wireframe11,
+  //   description: "Style guide for wireframe 11",
+  // },
+  // {
+  //   src: wireframe12,
+  //   description: "Style guide for wireframe 12",
+  // },
 ];
 
 function DesignComponent() {

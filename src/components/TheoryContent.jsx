@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/theory.scss";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import scroll from "../images/scroll.png";
 import baghi from "../images/bhaghi.png";
@@ -82,9 +83,7 @@ function TheoryContent() {
               animate="scrollButton"
             />
           </motion.section>
-
           <motion.h1 variants={textVariant}>A Pen by Baghi ArtWork</motion.h1>
-
           <motion.p variants={textContentVariant} className="textContent">
             The artwork that I decided to go with for my assignment is called “A
             Pen by Baghi”. I do not know if the artist attempted to make it an
@@ -167,7 +166,6 @@ function TheoryContent() {
             As you can see in figure 1 below, you have access to the code that
             brings the artwork to life, you can manipulate it as you see fit.
           </motion.p>
-
           <motion.p variants={textVariant} className="textContent">
             Within the web space, I do not know if this artwork has meaning to
             it, but as Stuart Hall once mentioned, that the Audiences are the
@@ -216,11 +214,15 @@ function TheoryContent() {
             power of technology can create something so immersive for the
             audience worldwide.{" "}
           </motion.p>
-
           <motion.section variants={textVariant} className="buttonss">
-            <motion.button variants={textVariant}>View Artworks</motion.button>
-            <motion.button variants={textVariant}>Contact Me</motion.button>
+            <Link to="/webart">
+              <motion.button variants={textVariant}></motion.button>
+            </Link>
+            <Link to="../pages/Contact">
+              <motion.button variants={textVariant}></motion.button>
+            </Link>
           </motion.section>
+          {/* {comment} */}
         </motion.section>
       </section>
       <motion.section

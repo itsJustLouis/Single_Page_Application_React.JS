@@ -3,6 +3,7 @@ import React from "react";
 import "../css/home.scss";
 import scroll from "../images/scroll.png";
 import hero from "../images/hero.png";
+import { Link } from "react-router-dom";
 
 function HomeContent() {
   const textVariants = {
@@ -51,8 +52,15 @@ function HomeContent() {
             Web Developer and Game Designer
           </motion.h1>
           <motion.section variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>View Artworks</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            {/*Due to a slighly layer problem, these buttons will not work because of the layers, i have to choose between the navigation and te layer*/}
+            <Link to="/webart">
+              <motion.button variants={textVariants}>
+                View Artworks
+              </motion.button>
+            </Link>
+            <Link to="../pages/contact">
+              <motion.button variants={textVariants}>Contact Me</motion.button>
+            </Link>
           </motion.section>
           <motion.img src={scroll} alt="" variants={textVariants} />
         </motion.section>

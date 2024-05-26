@@ -2,9 +2,8 @@ import React from "react";
 import "../css/navbar.scss";
 import { motion } from "framer-motion";
 import Sidebar from "./Sidebar";
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
-import youtube from "../images/youtube.png";
+
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -21,15 +20,20 @@ function NavBar() {
           Louie's Artistic Expansion
         </motion.span>
         <article className="social">
-          <button>
+          {/* <button>
             <img src={facebook} alt="" />
           </button>
           <button>
             <img src={instagram} alt="" />
-          </button>
-          <button>
-            <img src={youtube} alt="" />
-          </button>
+          </button> */}
+          <section className="buttons">
+            <Link to="/webart">
+              <motion.button>View Artworks</motion.button>
+            </Link>
+            <Link to="/contact">
+              <motion.button>Contact Me</motion.button>
+            </Link>
+          </section>
           {/* <a href="#">
             <img src="/instagram.png" alt="" />
           </a>

@@ -1,14 +1,13 @@
 import React from "react";
-import Header from "../components/Header";
+import AboutMe from "../components/AboutMe";
 import NavBar from "../components/NavBar";
 
 
 function Profile() {
     return (
         <React.Fragment>
-            <h2>Profile Page</h2>
             <NavBar />
-            <Header />
+            <AboutMe />
         </React.Fragment>
     )
 }

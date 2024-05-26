@@ -1,24 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@mixin minifiedmobile {
+  @media (max-width: 400px){
+    @content;
+  }
+}
+@mixin minimobile {
+  @media (max-width: 450px){
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 738px){
+    @content;
+  }
+}
 
-:root{
-  --background-color: #030014;
-  --background-light: #fff;
-  --shadow-colour: rgba(0,0,0,0.2);
-  --primary-color:rgb(183, 0, 255);
-  --text-color:#fff;
-  --text-light: #575757;
-  --font-size:16px;
-  /* --animation-speed:1; */
+
+@mixin tablet {
+  @media (max-width: 1366px){
+    @content;
+  }
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poetsen One", sans-serif;
+
+
+@mixin desktop {
+  @media (max-width: 1366px){
+    @content;
+  }
 }
-body{
-  background-color: var(--background-color);
-}
+

@@ -35,8 +35,8 @@ function ContactContent() {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.9,
-        staggerChildren: 0.8,
+        duration: 0.6,
+        staggerChildren: 0.5,
       },
     },
   };
@@ -70,7 +70,7 @@ function ContactContent() {
           onSubmit={sendEmail}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 3 }}
+          transition={{ delay: 1, duration: 2.5 }}
         >
           <input type="text" required placeholder="Name" name="name" />
           <input type="text" required placeholder="Email" name="email" />

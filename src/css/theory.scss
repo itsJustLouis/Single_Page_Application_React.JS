@@ -2,6 +2,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "../css/global.scss";
 
 :root {
   --background-color: #030014;
@@ -27,9 +28,14 @@ body {
 .heros{
   height: calc(100% - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #030014, #111132);
+  // background: linear-gradient(180deg, #030014, #111132);
   position: relative;
   z-index: -10;
+  // @include tablet{
+  //   // width: 70%;
+  //   align-items: center;
+    
+  // }
   .wrappers{
     max-width: 1100px;
     height: 100%;
@@ -45,6 +51,7 @@ body {
         letter-spacing: 10px;
         font-weight: 800;
     }
+    
     .textContainers{
       color: #b08eff;
       width: 100%;
@@ -54,7 +61,10 @@ body {
       justify-content: center;
       text-align:justify;
       gap: 40px;
-      
+      @include tablet{
+        width: 100%;
+        align-items: center;
+      }
       
       h2{
         font-size: 30px ;
@@ -75,14 +85,18 @@ body {
           -webkit-background-clip: text;
           background-clip: text;
           -webkit-text-fill-color: transparent;
+          @include tablet{
+            font-size: 36px;
+            
+          }
       }
       .buttonss{
         display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
         button{
           padding: 20px;
-          border: 1px solid whitesmoke;
+          border: none;
           border-radius: 10px;
           background-color: transparent;
           color: whitesmoke;
@@ -117,7 +131,7 @@ body {
     width: 80%;
     font-weight: bold;
     color: #b748ee17;
+    z-index: -599;
   }
 
 }
-

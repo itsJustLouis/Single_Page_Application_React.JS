@@ -2,6 +2,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "../css/global.scss";
 
 :root {
   --background-color: #030014;
@@ -11,7 +12,6 @@
   --text-color: #fff;
   --text-light: #575757;
   --font-size: 16px;
-  /* --animation-speed:1; */
 }
 
 * {
@@ -23,24 +23,7 @@
 body {
   background-color: var(--background-color);
 }
-// .Welcome-text {
-//   font-weight: 400;
-//   font-style: normal;
-//   background: linear-gradient(
-//       0deg,
-//       rgba(255, 255, 255, 0.4),
-//       rgba(255, 255, 255, 0.4)
-//     ),
-//     linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
-//   background-blend-mode: normal, screen;
-//   -webkit-background-clip: text;
-//   background-clip: text;
-//   -webkit-text-fill-color: transparent;
-//   font-size: 25px;
-// }
-// main {
-//   height: 100vh;
-// }
+
 .hero{
   height: calc(100vh - 100px);
   overflow: hidden;
@@ -59,7 +42,13 @@ body {
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-
+      @include tablet{
+        height: 65%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
       h2{
         font-size: 30px ;
         color: rebeccapurple;
@@ -77,6 +66,10 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @include tablet{
+    font-size: 36px;
+  }
       }
       .buttons{
         button{
@@ -101,7 +94,18 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 75px;
+    @include tablet{
+      height: 50%;
+      width: 100%;
+      top: unset;
+      bottom: 0;
+    }
+    img{
+      width: 95%;
+      height: 95%;
+      object-fit: contain;
+    }
   }
 
   .slidingTextContainer{
@@ -116,5 +120,3 @@ body {
 
 }
 
-
- 

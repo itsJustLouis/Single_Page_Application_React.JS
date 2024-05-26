@@ -1,4 +1,4 @@
-
+@import "../css/global.scss";
 .contact{
     height: 100%;
     max-width: 1366px;
@@ -7,6 +7,11 @@
     align-items: center;
     gap: 50px;
     margin-top: 5%;
+    @include tablet{
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+      }
 }
 .txtContainer{
     background: linear-gradient(
@@ -23,9 +28,18 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    @include tablet{
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 15px;
+      }
     h1{
         font-size: 100px;
         line-height: 88px;
+        @include tablet{
+           font-size: 36px;
+          }
       }
       span{
         font-weight: 300;
@@ -35,10 +49,10 @@
     flex: 1;
     position: relative;
     color:azure;
-    // .phoneSvg{
-    //     position: absolute;
-    //     margin: auto;
-    // }
+    @include tablet{
+        width: 95%;
+        padding: 50px;
+       }
 
     form{
     display: flex;
@@ -51,14 +65,22 @@
             border: 1px solid white;
             color: white;
             border-radius: 5px;
+            @include tablet{
+                padding: 10px;
+               }
         }
 
         button{
-            padding: 20px;
-            border: none;
             background-color: #ba9cff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
             cursor: pointer;
-            font-weight: 500;
+            font-size: 14px;
+            @include tablet{
+                padding: 10px;
+               }
         }
     }
 }

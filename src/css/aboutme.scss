@@ -1,0 +1,88 @@
+@import "../css/global.scss";
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:  rgb(244, 198, 241);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin: 0 auto;
+  
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+      @include tablet{
+        width: 150px;
+        height: 150px;
+      }
+    }
+  
+    .profile-info {
+      text-align: center;
+  
+      .name {
+        font-size: 2rem;
+        color: #030014;
+        margin-bottom: 10px;
+      }
+  
+      .bio {
+        font-size: 1.2rem;
+        color: #6c82d1;
+        margin-bottom: 20px;
+      }
+  
+      .hobbies {
+        margin-bottom: 20px;
+  
+        h2 {
+          font-size: 1.5rem;
+          color: #333;
+          margin-bottom: 10px;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            font-size: 1.1rem;
+            color: #6c82d1;
+            margin-bottom: 5px;
+            cursor: pointer;
+            transition: color 0.3s, transform 0.3s;
+          }
+        }
+      }
+  
+      .contact {
+        h2 {
+          font-size: 1.5rem;
+          color: #030014;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 1.1rem;
+          color: #030014;
+          margin-bottom: 5px;
+  
+          a {
+            color: #0073b1;
+            text-decoration: none;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: #005582;
+            }
+          }
+        }
+      }
+    }
+  }
+  

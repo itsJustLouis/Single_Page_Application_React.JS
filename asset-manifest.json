@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Single_Page_Application_React.JS/static/css/main.7df622e5.css",
+    "main.css": "/Single_Page_Application_React.JS/static/css/main.fefc0f77.css",
     "main.js": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js",
     "static/media/hero.png": "/Single_Page_Application_React.JS/static/media/hero.32df0e5a396db0daec7c.png",
     "static/media/PCHomePage.png": "/Single_Page_Application_React.JS/static/media/PCHomePage.f5a79b7c45c069d4ed69.png",
@@ -15,11 +15,11 @@
     "static/media/PCDesignPage02.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage02.85fa8987f04afb19680b.png",
     "static/media/errorPage.png": "/Single_Page_Application_React.JS/static/media/errorPage.b94fa95a22b72dd61e49.png",
     "index.html": "/Single_Page_Application_React.JS/index.html",
-    "main.7df622e5.css.map": "/Single_Page_Application_React.JS/static/css/main.7df622e5.css.map",
+    "main.fefc0f77.css.map": "/Single_Page_Application_React.JS/static/css/main.fefc0f77.css.map",
     "main.01f0d011.js.map": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df622e5.css",
+    "static/css/main.fefc0f77.css",
     "static/js/main.01f0d011.js"
   ]
 }

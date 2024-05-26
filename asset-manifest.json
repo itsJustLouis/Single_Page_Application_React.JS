@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Single_Page_Application_React.JS/static/css/main.9f525bfd.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.50e5ea92.js",
+    "main.css": "/Single_Page_Application_React.JS/static/css/main.7df622e5.css",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js",
     "static/media/hero.png": "/Single_Page_Application_React.JS/static/media/hero.32df0e5a396db0daec7c.png",
     "static/media/PCHomePage.png": "/Single_Page_Application_React.JS/static/media/PCHomePage.f5a79b7c45c069d4ed69.png",
     "static/media/PCEssayPage.png": "/Single_Page_Application_React.JS/static/media/PCEssayPage.4c946cbf89f4b5ca455a.png",
+    "static/media/profilePC.png": "/Single_Page_Application_React.JS/static/media/profilePC.c3b9ccd5eeb8051d52e5.png",
     "static/media/bhaghi.png": "/Single_Page_Application_React.JS/static/media/bhaghi.1362471924f8701fc09e.png",
+    "static/media/TeacherRecord.jpg": "/Single_Page_Application_React.JS/static/media/TeacherRecord.3fc1bc585382a7745b79.jpg",
     "static/media/PCDesignPage01.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage01.04b9d0db629bcdb8eea7.png",
     "static/media/MobileHomePage.png": "/Single_Page_Application_React.JS/static/media/MobileHomePage.7ab96fc7f0a5d6c9b591.png",
     "static/media/MobileEssayPage.png": "/Single_Page_Application_React.JS/static/media/MobileEssayPage.35856486ceab40a2510c.png",
+    "static/media/profileMobile.png": "/Single_Page_Application_React.JS/static/media/profileMobile.080e25082353395911b2.png",
     "static/media/PCDesignPage02.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage02.85fa8987f04afb19680b.png",
+    "static/media/errorPage.png": "/Single_Page_Application_React.JS/static/media/errorPage.b94fa95a22b72dd61e49.png",
     "index.html": "/Single_Page_Application_React.JS/index.html",
-    "main.9f525bfd.css.map": "/Single_Page_Application_React.JS/static/css/main.9f525bfd.css.map",
-    "main.50e5ea92.js.map": "/Single_Page_Application_React.JS/static/js/main.50e5ea92.js.map"
+    "main.7df622e5.css.map": "/Single_Page_Application_React.JS/static/css/main.7df622e5.css.map",
+    "main.01f0d011.js.map": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f525bfd.css",
-    "static/js/main.50e5ea92.js"
+    "static/css/main.7df622e5.css",
+    "static/js/main.01f0d011.js"
   ]
 }

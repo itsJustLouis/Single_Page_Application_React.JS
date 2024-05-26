@@ -50,18 +50,6 @@ const wireframes = [
     description:
       "This extra page is for incase you try to navigate to a page that does not exist, you will land here, saw this with many websites that if you try to navigate to a page that does not exist, especially with github, when you website is not uploaded, there is a page it redirects you to, thought id take inspiration from that",
   },
-  // {
-  //   src: wireframe10,
-  //   description: "Style guide for wireframe 10",
-  // },
-  // {
-  //   src: wireframe11,
-  //   description: "Style guide for wireframe 11",
-  // },
-  // {
-  //   src: wireframe12,
-  //   description: "Style guide for wireframe 12",
-  // },
 ];
 
 function DesignComponent() {

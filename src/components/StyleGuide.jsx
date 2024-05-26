@@ -42,7 +42,6 @@ function StyleGuide() {
         <section className="button-sample">
           <button className="btn-primary">Primary Button</button>
           <button className="btn-secondary">Secondary Button</button>
-          {/* <button className="btn-outline">Outline Button</button> */}
         </section>
       </section>
     </section>

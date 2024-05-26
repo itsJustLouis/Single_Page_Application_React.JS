@@ -1,5 +1,5 @@
 @import "../css/global.scss";
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,22 +7,22 @@
     background-color: antiquewhite;
     color: #030014;
     z-index: 20;
-    @include tablet{
+    @include tablet {
         align-items: center;
-    justify-content: center;
-       }
+        justify-content: center;
+    }
 
-    .bg{
+    .bg {
         position: fixed;
         top: 0;
         left: 0;
         bottom: 0;
         width: 400px;
         background: rgb(244, 198, 241);
-        @include minifiedmobile{
+        @include minifiedmobile {
             width: 50%;
         }
-        .links{
+        .links {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -31,22 +31,21 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
-            @include tablet{
+            @include tablet {
                 align-items: center;
-            justify-content: center;
-            height: 85%;
-               }
+                justify-content: center;
+                height: 85%;
+            }
 
-            a{
+            a {
                 font-size: 40px;
-                @include tablet{
+                @include tablet {
                     font-size: 20px;
-                   }
+                }
             }
         }
     }
-    button{
-
+    button {
         width: 50px;
         height: 50px;
         border-radius: 50%;

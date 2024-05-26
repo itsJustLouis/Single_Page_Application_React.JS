@@ -22,7 +22,7 @@ function AboutMe() {
     //animation section
     <motion.section
       className="about-me-container"
-      initial={{ opacity: 0 }} // Initial opacity set to 0
+      initial={{ opacity: 0 }} // Initial opacity initial state is 0
       animate={{ opacity: 1 }} // Animate state will change opacity to 1
       transition={{ duration: 1 }} // Duration
     >
@@ -92,4 +92,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe; // Exporting AboutMe component
+export default AboutMe;

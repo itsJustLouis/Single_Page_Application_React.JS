@@ -1,5 +1,5 @@
 @import "../css/global.scss";
-.contact{
+.contact {
     height: 100%;
     max-width: 1366px;
     margin: auto;
@@ -7,70 +7,67 @@
     align-items: center;
     gap: 50px;
     margin-top: 5%;
-    @include tablet{
+    @include tablet {
         width: 100%;
         padding: 10px;
         flex-direction: column;
-      }
+    }
 }
-.txtContainer{
-    background: linear-gradient(
-             0deg,
-         rgba(255, 255, 255, 0.4),
-         rgba(255, 255, 255, 0.4)
-         ),
-             linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
-             background-blend-mode: normal, screen;
-            -webkit-background-clip: text;
-             background-clip: text;
-            -webkit-text-fill-color: transparent;
+.txtContainer {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+    background-blend-mode: normal, screen;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    @include tablet{
+    @include tablet {
         gap: 20px;
         text-align: center;
         align-items: center;
         margin-top: 15px;
-      }
-    h1{
+    }
+    h1 {
         font-size: 100px;
         line-height: 88px;
-        @include tablet{
-           font-size: 36px;
-          }
-      }
-      span{
+        @include tablet {
+            font-size: 36px;
+        }
+    }
+    span {
         font-weight: 300;
-      }
+    }
 }
-.formContainer{
+.formContainer {
     flex: 1;
     position: relative;
-    color:azure;
-    @include tablet{
+    color: azure;
+    @include tablet {
         width: 95%;
         padding: 50px;
-       }
+    }
 
-    form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
 
-    input, textarea{
+        input,
+        textarea {
             padding: 20px;
             background-color: transparent;
             border: 1px solid white;
             color: white;
             border-radius: 5px;
-            @include tablet{
+            @include tablet {
                 padding: 10px;
-               }
+            }
         }
 
-        button{
+        button {
             background-color: #ba9cff;
             color: #fff;
             border: none;
@@ -78,9 +75,9 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 14px;
-            @include tablet{
+            @include tablet {
                 padding: 10px;
-               }
+            }
         }
     }
 }

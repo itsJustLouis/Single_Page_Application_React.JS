@@ -20,12 +20,6 @@ function NavBar() {
           Louie's Artistic Expansion
         </motion.span>
         <article className="social">
-          {/* <button>
-            <img src={facebook} alt="" />
-          </button>
-          <button>
-            <img src={instagram} alt="" />
-          </button> */}
           <section className="buttons">
             <Link to="/webart">
               <motion.button>View Artworks</motion.button>
@@ -34,15 +28,6 @@ function NavBar() {
               <motion.button>Contact Me</motion.button>
             </Link>
           </section>
-          {/* <a href="#">
-            <img src="/instagram.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/facebook.png" alt="" />
-          </a> */}
         </article>
       </section>
     </nav>

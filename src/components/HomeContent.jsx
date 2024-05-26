@@ -76,8 +76,6 @@ function HomeContent() {
       <section className="imageContainer">
         <img src={hero} alt="" />
       </section>
-
-      {/* <h1 className="Welcome-text">Welcome to Louis Monawe's HomePage</h1> */}
     </main>
   );
 }

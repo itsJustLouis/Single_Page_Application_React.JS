@@ -1,9 +1,9 @@
 @import "../css/global.scss";
 
-.navbar{
+.navbar {
     height: 100px;
 
-    .wrapper{
+    .wrapper {
         max-width: 1366px;
         margin: auto;
         display: flex;
@@ -11,60 +11,55 @@
         justify-content: space-between;
         height: 100%;
 
-        @include mobile{
-            justify-content:flex-end;
+        @include mobile {
+            justify-content: flex-end;
             padding: 20px;
         }
-        @include minimobile{
+        @include minimobile {
             padding: 10px;
         }
 
-        span{
+        span {
             margin-left: 85px;
             font-size: 25px;
             font-weight: bold;
-            background: linear-gradient(
-                0deg,
-                rgba(255, 255, 255, 0.4),
-                rgba(255, 255, 255, 0.4)
-              ),
-              linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+                linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
             background-blend-mode: normal, screen;
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
 
-            @include minimobile{
+            @include minimobile {
                 font-size: 15px;
             }
         }
 
-        .social{
+        .social {
             display: flex;
             gap: 20px;
-            img{
+            img {
                 width: 18px;
                 height: 18px;
             }
-            @include minimobile{
+            @include minimobile {
                 gap: 5px;
             }
-            @include minifiedmobile{
+            @include minifiedmobile {
                 display: none;
             }
         }
     }
-    .buttons{
-        button{
-          padding: 15px;
-          border: 1px solid whitesmoke;
-          border-radius: 50px;
-          background-color: transparent;
-          color: whitesmoke;
-          margin-right: 20px;
-          cursor: pointer;
-          font-weight: 300;
+    .buttons {
+        button {
+            padding: 15px;
+            border: 1px solid whitesmoke;
+            border-radius: 50px;
+            background-color: transparent;
+            color: whitesmoke;
+            margin-right: 20px;
+            cursor: pointer;
+            font-weight: 300;
         }
-      }
-
+    }
 }

@@ -24,17 +24,17 @@ body {
   background-color: var(--background-color);
 }
 
-.hero{
+.hero {
   height: calc(100vh - 100px);
   overflow: hidden;
   background: linear-gradient(180deg, #030014, #111132);
   position: relative;
   z-index: -10;
-  .wrapper{
+  .wrapper {
     max-width: 1366px;
     height: 100%;
     margin: auto;
-    .textContainer{
+    .textContainer {
       color: whitesmoke;
       width: 50%;
       height: 100%;
@@ -42,37 +42,33 @@ body {
       flex-direction: column;
       justify-content: center;
       gap: 40px;
-      @include tablet{
+      @include tablet {
         height: 65%;
         width: 100%;
         gap: 20px;
         align-items: center;
         text-align: center;
       }
-      h2{
-        font-size: 30px ;
+      h2 {
+        font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
       }
-      h1{
+      h1 {
         font-size: 88px;
-          background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.4)
-    ),
-    linear-gradient(90.01deg, #e59cff 0.01%, #9cb2ff 50.01%, #4167ee 100%);
-  background-blend-mode: normal, screen;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+          linear-gradient(90.01deg, #e59cff 0.01%, #9cb2ff 50.01%, #4167ee 100%);
+        background-blend-mode: normal, screen;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
 
-  @include tablet{
-    font-size: 36px;
-  }
+        @include tablet {
+          font-size: 36px;
+        }
       }
-      .buttons{
-        button{
+      .buttons {
+        button {
           padding: 20px;
           border: 1px solid whitesmoke;
           border-radius: 10px;
@@ -84,31 +80,31 @@ body {
         }
       }
 
-      img{
+      img {
         width: 50px;
       }
     }
   }
 
-  .imageContainer{
+  .imageContainer {
     height: 100%;
     position: absolute;
     top: 0;
     right: 75px;
-    @include tablet{
+    @include tablet {
       height: 50%;
       width: 100%;
       top: unset;
       bottom: 0;
     }
-    img{
+    img {
       width: 95%;
       height: 95%;
       object-fit: contain;
     }
   }
 
-  .slidingTextContainer{
+  .slidingTextContainer {
     position: absolute;
     font-size: 50vh;
     bottom: -120px;
@@ -117,6 +113,4 @@ body {
     font-weight: bold;
     color: #b748ee17;
   }
-
 }
-

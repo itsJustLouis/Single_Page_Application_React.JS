@@ -12,7 +12,8 @@ import wireframe06 from "../images/PCDesignPage02.png";
 import wireframe07 from "../images/profilePC.png";
 import wireframe08 from "../images/profileMobile.png";
 import wireframe09 from "../images/errorPage.png";
-// wireframes
+// wireframes for website
+
 const wireframes = [
   {
     src: wireframe01,

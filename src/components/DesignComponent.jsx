@@ -12,6 +12,9 @@ import wireframe06 from "../images/PCDesignPage02.png";
 import wireframe07 from "../images/profilePC.png";
 import wireframe08 from "../images/profileMobile.png";
 import wireframe09 from "../images/errorPage.png";
+import wireframe10 from "../images/artpagePC.png";
+import wireframe11 from "../images/artpageMobile.png";
+import wireframe12 from "../images/revisedHomepage.png";
 // wireframes for website
 
 const wireframes = [
@@ -50,6 +53,21 @@ const wireframes = [
     src: wireframe09,
     description:
       "This extra page is for incase you try to navigate to a page that does not exist, you will land here, saw this with many websites that if you try to navigate to a page that does not exist, especially with github, when you website is not uploaded, there is a page it redirects you to, thought id take inspiration from that",
+  },
+  {
+    src: wireframe10,
+    description:
+      "At first this was an experiment, and it was also one of those so called developer mistake that turned good,i wanted the plane to fly over the earth, so the eart was gonna be round and the plane was going to go around it, however with slight calculation mistakes, the plane went inside the 3D earth object and it turned out like that, and i liked it better that way.",
+  },
+  {
+    src: wireframe11,
+    description:
+      "Net Art page for Mobile devices. This was a fun experiment that turned out well showcasing my artistic skills.",
+  },
+  {
+    src: wireframe12,
+    description:
+      "Incase you did not notice my revised homepage, i added something i thought of as part of my artwork, its like a spiderweb of sort, initially i wanted to recreate something like the bhaghi artwork mentioned in my Essay, in the theory page, however that failed miserably. I overrestimated my coding skills, however that spiderweb-like thing was what i managed to do in order to compensate for the initial bhaghi artwork.",
   },
 ];
 

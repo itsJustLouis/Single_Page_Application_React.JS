@@ -24,9 +24,9 @@ function NavBar() {
             <Link to="/webart">
               <motion.button>View Artworks</motion.button>
             </Link>
-            <Link to="/contact">
+            {/* <Link to="/contact">
               <motion.button>Contact Me</motion.button>
-            </Link>
+            </Link> */}
           </section>
         </article>
       </section>

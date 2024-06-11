@@ -104,19 +104,19 @@ const SpaceModel = ({
 
       switch (true) {
         // If the calculated rotation falls within this range, set the current stage to 5 and displaay what is in stagge 5
-        case normalizedRotation >= 3.7 && normalizedRotation <= 4.0:
+        case normalizedRotation >= 2.5 && normalizedRotation <= 3:
           setCurrentStage(5);
           break;
-        case normalizedRotation >= 5.45 && normalizedRotation <= 5.85:
+        case normalizedRotation >= 4.5 && normalizedRotation <= 5:
           setCurrentStage(4);
           break;
-        case normalizedRotation >= 0.85 && normalizedRotation <= 1.3:
+        case normalizedRotation >= 0 && normalizedRotation <= 1:
           setCurrentStage(3);
           break;
-        case normalizedRotation >= 2.4 && normalizedRotation <= 2.6:
+        case normalizedRotation >= 1.5 && normalizedRotation <= 2:
           setCurrentStage(2);
           break;
-        case normalizedRotation >= 4.25 && normalizedRotation <= 4.75:
+        case normalizedRotation >= 3.5 && normalizedRotation <= 4:
           setCurrentStage(1);
           break;
         default:

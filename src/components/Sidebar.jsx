@@ -31,6 +31,9 @@ function Sidebar() {
     <motion.section className="sidebar" animate={open ? "open" : "closed"}>
       <motion.section className="bg" variants={variants}>
         <Links />
+        <p className="links">
+          @2024 Louis Monawe from Wits University. All Right Reserved.
+        </p>
       </motion.section>
       <ToggleButton setOpen={setOpen} />
     </motion.section>

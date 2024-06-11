@@ -20,6 +20,14 @@ const renderContent = {
     <h1 className="sm:text-xl sm:leading-snug text-center py-4 px-8 neo-brutalism-white text-pink-600 mx-5 ">
       Hey You👋, <span className="font-semibold">Louis</span> here
       <br />A Web Developer and Game Designer from Wits University!.
+      <p>
+        This artwork is the results of my exploration into the world of
+        <br />
+        3D websites. I have been questioning myself how 3D websites are
+        <br />
+        designed, and i took some time to actually explore it and this is the
+        results.
+      </p>
     </h1>
   ),
   2: (

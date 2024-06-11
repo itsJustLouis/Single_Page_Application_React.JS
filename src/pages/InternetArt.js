@@ -1,5 +1,4 @@
 import React from 'react'
-
 import ThreeDMain from '../components/3DPage/ThreeDMain';
 
 function WebArt() {

@@ -201,14 +201,6 @@ const BackgroundArt = () => {
   return (
     <section id="large-header" className="large-header" ref={largeHeaderRef}>
       <canvas id="demo-canvas" ref={canvasRef}></canvas>
-      <h1 className="main-title">
-        {/* Hey!<span className="thin">There, Let me tell you a story!</span> */}
-      </h1>
-      {/* <div className="center" style={{ "--total": 1080 }}>
-        {Array.from({ length: 1080 }, (_, i) => (
-          <div key={i} className="particle" style={{ "--index": i + 1 }}></div>
-        ))}
-      </div> */}
     </section>
   );
 };

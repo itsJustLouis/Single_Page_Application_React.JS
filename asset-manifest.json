@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Single_Page_Application_React.JS/static/css/main.35f973be.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.9fdd285d.js",
+    "main.css": "/Single_Page_Application_React.JS/static/css/main.dcbac113.css",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.f5b6f78b.js",
     "static/media/earth.glb": "/Single_Page_Application_React.JS/static/media/earth.f99a1cfac8467d1dfb32.glb",
     "static/media/artpagePC.png": "/Single_Page_Application_React.JS/static/media/artpagePC.9a632478ca5296c80ad1.png",
     "static/media/plane.glb": "/Single_Page_Application_React.JS/static/media/plane.52b8b6710c6c3ca4367f.glb",
@@ -21,11 +21,11 @@
     "static/media/errorPage.png": "/Single_Page_Application_React.JS/static/media/errorPage.b94fa95a22b72dd61e49.png",
     "index.html": "/Single_Page_Application_React.JS/index.html",
     "static/media/arrow.svg": "/Single_Page_Application_React.JS/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
-    "main.35f973be.css.map": "/Single_Page_Application_React.JS/static/css/main.35f973be.css.map",
-    "main.9fdd285d.js.map": "/Single_Page_Application_React.JS/static/js/main.9fdd285d.js.map"
+    "main.dcbac113.css.map": "/Single_Page_Application_React.JS/static/css/main.dcbac113.css.map",
+    "main.f5b6f78b.js.map": "/Single_Page_Application_React.JS/static/js/main.f5b6f78b.js.map"
   },
   "entrypoints": [
-    "static/css/main.35f973be.css",
-    "static/js/main.9fdd285d.js"
+    "static/css/main.dcbac113.css",
+    "static/js/main.f5b6f78b.js"
   ]
 }

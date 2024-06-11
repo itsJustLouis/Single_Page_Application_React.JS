@@ -8,11 +8,6 @@ Source: https://sketchfab.com/3d-models/stylized-ww1-plane-c4edeb0e410f46e8a4db3
 
 "Earth" (https://skfb.ly/6UoZv) by absolution is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
-music
- Moonlight by Scott Buckley | www.scottbuckley.com.au
-Music promoted by https://www.chosic.com/free-music/all/
-Creative Commons CC BY 4.0
-
 //in this code i converted a glb 3d model downloaded from Sketchfab in https://gltf.pmnd.rs/ and converted it to a jsx code
 */
 

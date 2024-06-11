@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/Single_Page_Application_React.JS/static/css/main.fefc0f77.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js",
+    "main.css": "/Single_Page_Application_React.JS/static/css/main.be43f6e1.css",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.27597609.js",
+    "static/media/earth.glb": "/Single_Page_Application_React.JS/static/media/earth.f99a1cfac8467d1dfb32.glb",
+    "static/media/plane.glb": "/Single_Page_Application_React.JS/static/media/plane.52b8b6710c6c3ca4367f.glb",
     "static/media/hero.png": "/Single_Page_Application_React.JS/static/media/hero.32df0e5a396db0daec7c.png",
     "static/media/PCHomePage.png": "/Single_Page_Application_React.JS/static/media/PCHomePage.f5a79b7c45c069d4ed69.png",
     "static/media/PCEssayPage.png": "/Single_Page_Application_React.JS/static/media/PCEssayPage.4c946cbf89f4b5ca455a.png",
@@ -15,11 +17,12 @@
     "static/media/PCDesignPage02.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage02.85fa8987f04afb19680b.png",
     "static/media/errorPage.png": "/Single_Page_Application_React.JS/static/media/errorPage.b94fa95a22b72dd61e49.png",
     "index.html": "/Single_Page_Application_React.JS/index.html",
-    "main.fefc0f77.css.map": "/Single_Page_Application_React.JS/static/css/main.fefc0f77.css.map",
-    "main.01f0d011.js.map": "/Single_Page_Application_React.JS/static/js/main.01f0d011.js.map"
+    "static/media/arrow.svg": "/Single_Page_Application_React.JS/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
+    "main.be43f6e1.css.map": "/Single_Page_Application_React.JS/static/css/main.be43f6e1.css.map",
+    "main.27597609.js.map": "/Single_Page_Application_React.JS/static/js/main.27597609.js.map"
   },
   "entrypoints": [
-    "static/css/main.fefc0f77.css",
-    "static/js/main.01f0d011.js"
+    "static/css/main.be43f6e1.css",
+    "static/js/main.27597609.js"
   ]
 }

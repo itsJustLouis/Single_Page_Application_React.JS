@@ -1,3 +1,5 @@
+//for the particles i followed this tutorial on youtube:  https://www.youtube.com/watch?v=AKM3EodFZek
+
 import { motion } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import "../css/home.scss";

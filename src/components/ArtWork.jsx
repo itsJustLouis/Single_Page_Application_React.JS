@@ -1,3 +1,4 @@
+//followed this tutorial for this: https://www.youtube.com/watch?v=AKM3EodFZek
 import "../css/noPage.scss";
 import "../css/artwork.scss";
 

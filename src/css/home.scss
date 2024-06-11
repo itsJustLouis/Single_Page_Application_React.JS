@@ -44,7 +44,7 @@ body {
       gap: 40px;
       margin-left: -70%;
       @include tablet {
-        height: 40%;
+        height: 65%;
         width: 100%;
         gap: 20px;
         align-items: center;
@@ -94,13 +94,13 @@ body {
     top: 0;
     right: 75px;
     @include tablet {
-      height: 50%;
+      height: 45%;
       width: 100%;
       top: unset;
-      bottom: 1;
+      bottom: 0;
     }
     @include mobile {
-      bottom: 160px;
+      bottom: 100px;
     }
     img {
       width: 90%;

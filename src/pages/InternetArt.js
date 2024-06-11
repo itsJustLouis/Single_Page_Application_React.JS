@@ -1,18 +1,16 @@
-import React from "react";
-import NavBar from "../components/NavBar";
-import "../css/noPage.scss"
+import React from 'react'
 
+import ThreeDMain from '../components/3DPage/ThreeDMain';
 
 function WebArt() {
     return (
-        <nav>
-            <NavBar />
-            <main className="webArt">
-                <h2>Beautiful Web Art Coming Soon</h2>
-
-            </main>
-        </nav>
-
+        <main>
+            {/* <NavBar /> */}
+            <section className="moono">
+                <ThreeDMain />
+            </section>
+        </main>
     )
 }
-export default WebArt;
+
+export default WebArt

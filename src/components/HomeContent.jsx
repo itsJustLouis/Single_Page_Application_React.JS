@@ -1,13 +1,17 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../css/home.scss";
 import scroll from "../images/scroll.png";
 import hero from "../images/hero.png";
 import { Link } from "react-router-dom";
 
+import BackgroundArt from "./ArtWork.jsx";
+import "../css/noPage.scss";
+import "../css/artwork.scss";
+
 function HomeContent() {
   const textVariants = {
-    //Variants allow me to create smooth animations using the initial state and the animate state, from framermotion.
+    // Variants allow me to create smooth animations using the initial state and the animate state, from framer motion.
     initial: {
       x: -500,
       opacity: 0,
@@ -36,10 +40,16 @@ function HomeContent() {
     },
   };
 
+  // Using useRef to access dom elements so i can incorporate the other component in here
+  const backgroundArtRef = useRef(null);
+
   return (
     <main className="hero">
+      {/* useref */}
+      <BackgroundArt ref={backgroundArtRef} />
+
       <section className="wrapper">
-        <motion.section //This is the main container that will animate from the initial to the animate state.
+        <motion.section
           className="textContainer"
           variants={textVariants}
           initial="initial"
@@ -52,7 +62,6 @@ function HomeContent() {
             Web Developer and Game Designer
           </motion.h1>
           <motion.section variants={textVariants} className="buttons">
-            {/*Due to a slighly layer problem, these buttons will not work because of the layers, i have to choose between the navigation and te layer*/}
             <Link to="/webart">
               <motion.button variants={textVariants}>
                 View Artworks
@@ -71,7 +80,7 @@ function HomeContent() {
         initial="initial"
         animate="animate"
       >
-        Programmer Designer Writter Game Maker
+        Programmer Designer Writer Game Maker
       </motion.section>
       <section className="imageContainer">
         <img src={hero} alt="" />

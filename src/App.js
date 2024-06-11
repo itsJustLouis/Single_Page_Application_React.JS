@@ -9,7 +9,6 @@ import NoPage from "./pages/NoPage";
 import Contact from "./pages/Contact";
 
 
-
 function App() {
   return (
     <React.Fragment >

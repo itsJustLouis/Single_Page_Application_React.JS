@@ -21,12 +21,12 @@ function NavBar() {
         </motion.span>
         <article className="social">
           <section className="buttons">
-            <Link to="/webart">
+            {/* <Link to="/webart">
               <motion.button>View Artworks</motion.button>
-            </Link>
-            {/* <Link to="/contact">
-              <motion.button>Contact Me</motion.button>
             </Link> */}
+            <Link to="/contact">
+              <motion.button>Contact Me</motion.button>
+            </Link>
           </section>
         </article>
       </section>

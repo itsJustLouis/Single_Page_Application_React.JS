@@ -47,7 +47,7 @@ function Links() {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Link to="/design">Design</Link>
+          <Link to="/design">Projects</Link>
         </motion.li>
         <motion.li
           variants={itemVariants}

@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import "../css/design.scss";
 
-import wireframe01 from "../images/MobileHomePage.png";
-import wireframe02 from "../images/PCHomePage.png";
+import wireframe01 from "../videos/Recipe.mp4";
+import wireframe02 from "../videos/Routes.mp4";
 import wireframe03 from "../images/PCEssayPage.png";
 import wireframe04 from "../images/MobileEssayPage.png";
 import wireframe05 from "../images/PCDesignPage01.png";
@@ -15,6 +15,7 @@ import wireframe09 from "../images/errorPage.png";
 import wireframe10 from "../images/artpagePC.png";
 import wireframe11 from "../images/artpageMobile.png";
 import wireframe12 from "../images/revisedHomepage.png";
+import RecipeBook from "./recipeVideo";
 // wireframes for website
 
 const wireframes = [
@@ -70,7 +71,6 @@ const wireframes = [
       "Incase you did not notice my revised homepage, i added something i thought of as part of my artwork, its like a spiderweb of sort, initially i wanted to recreate something like the bhaghi artwork mentioned in my Essay, in the theory page, however that failed miserably. I overrestimated my coding skills, however that spiderweb-like thing was what i managed to do in order to compensate for the initial bhaghi artwork.",
   },
 ];
-
 function DesignComponent() {
   const [selectedWireframe, setSelectedWireframe] = useState(null);
   const controls = useAnimation(); // Controls for animations
@@ -85,7 +85,7 @@ function DesignComponent() {
     sequence();
   }, [controls]); // will Run effect only once when controls change
 
-  // Function to handle click on an image
+  // Function to handle click on a wireframe
   const handleClick = (wireframe) => {
     setSelectedWireframe(wireframe);
   };
@@ -98,25 +98,27 @@ function DesignComponent() {
   return (
     <section className="gallery">
       {wireframes.map((wireframe, index) => (
-        // Gallery item with motion animation, will deal with delaying image, hover and click on image
         <motion.section
           className="gallery-item"
           key={index}
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: index * 0.1 }} // Delay animation for each image
+          transition={{ duration: 0.5, delay: index * 0.1 }} // Delay animation for each wireframe
           whileHover={{ scale: 1.1 }} // Scale animation on hover
           whileTap={{ scale: 0.9 }} // Scale animation on tap/click
-          onClick={() => handleClick(wireframe)} // Click handler to display image and text
+          onClick={() => handleClick(wireframe)} // Click handler to display wireframe and text
         >
-          <img src={wireframe.src} alt={`Wireframe ${index + 1}`} />{" "}
-          {/* Image */}
+          <video
+            src={wireframe.src}
+            alt={`Wireframe ${index + 1}`}
+            controls
+            width="100%" // Adjust width as needed
+          />
           <p>{wireframe.description}</p> {/* Description */}
         </motion.section>
       ))}
 
       {selectedWireframe && (
-        // Modal for displaying selected wireframe
         <motion.section
           className="modal"
           initial={{ opacity: 0 }}
@@ -130,8 +132,12 @@ function DesignComponent() {
             animate={{ scale: 1 }}
             transition={{ duration: 0.3 }}
           >
-            {/* image and description */}
-            <img src={selectedWireframe.src} alt="Selected wireframe" />{" "}
+            <video
+              src={selectedWireframe.src}
+              alt="Selected wireframe"
+              controls
+              width="100%" // Adjust width as needed
+            />
             <p>{selectedWireframe.description}</p>
           </motion.section>
         </motion.section>

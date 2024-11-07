@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.e13435c7.js",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.228a822a.js",
+    "static/media/magaza.mp4": "/Single_Page_Application_React.JS/static/media/magaza.2e26bf11b241c668d1a3.mp4",
+    "static/media/wow.mp4": "/Single_Page_Application_React.JS/static/media/wow.7acd9b34788810392b84.mp4",
+    "static/media/Crit3Video.mp4": "/Single_Page_Application_React.JS/static/media/Crit3Video.4fb461184d4c6e122e29.mp4",
     "static/media/earth.glb": "/Single_Page_Application_React.JS/static/media/earth.f99a1cfac8467d1dfb32.glb",
     "static/media/Recipe.mp4": "/Single_Page_Application_React.JS/static/media/Recipe.901fce3b74bb76c666ff.mp4",
     "static/media/plane.glb": "/Single_Page_Application_React.JS/static/media/plane.52b8b6710c6c3ca4367f.glb",
@@ -12,10 +15,10 @@
     "index.html": "/Single_Page_Application_React.JS/index.html",
     "static/media/arrow.svg": "/Single_Page_Application_React.JS/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
     "main.bc3440f0.css.map": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css.map",
-    "main.e13435c7.js.map": "/Single_Page_Application_React.JS/static/js/main.e13435c7.js.map"
+    "main.228a822a.js.map": "/Single_Page_Application_React.JS/static/js/main.228a822a.js.map"
   },
   "entrypoints": [
     "static/css/main.bc3440f0.css",
-    "static/js/main.e13435c7.js"
+    "static/js/main.228a822a.js"
   ]
 }

@@ -8,6 +8,7 @@ import wireframe02 from "../videos/Routes.mp4";
 import wireframe03 from "../videos/Crit3Video.mp4";
 import wireframe04 from "../videos/wow.mp4";
 import wireframe05 from "../videos/magaza.mp4";
+import wireframe06 from "../videos/Fakugesi.mp4";
 // import wireframe03 from "../images/PCEssayPage.png";
 // import wireframe04 from "../images/MobileEssayPage.png";
 // import wireframe05 from "../images/PCDesignPage01.png";
@@ -41,6 +42,11 @@ const wireframes = [
   {
     src: wireframe05,
     description: "This is a photography website i made for someone else",
+  },
+  {
+    src: wireframe06,
+    description:
+      "This was a game i collaborated with my classmates for a competition at Fak'Ugezi, i was the programmer in the project",
   },
   // {
   //   src: wireframe04,

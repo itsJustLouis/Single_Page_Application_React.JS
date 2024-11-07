@@ -5,6 +5,9 @@ import "../css/design.scss";
 
 import wireframe01 from "../videos/Recipe.mp4";
 import wireframe02 from "../videos/Routes.mp4";
+import wireframe03 from "../videos/Crit3Video.mp4";
+import wireframe04 from "../videos/wow.mp4";
+import wireframe05 from "../videos/magaza.mp4";
 // import wireframe03 from "../images/PCEssayPage.png";
 // import wireframe04 from "../images/MobileEssayPage.png";
 // import wireframe05 from "../images/PCDesignPage01.png";
@@ -15,7 +18,6 @@ import wireframe02 from "../videos/Routes.mp4";
 // import wireframe10 from "../images/artpagePC.png";
 // import wireframe11 from "../images/artpageMobile.png";
 // import wireframe12 from "../images/revisedHomepage.png";
-import RecipeBook from "./recipeVideo";
 // wireframes for website
 
 const wireframes = [
@@ -27,10 +29,19 @@ const wireframes = [
     src: wireframe02,
     description: "Bus ticket and Routes Booking Web Application.",
   },
-  // {
-  //   src: wireframe03,
-  //   description: "",
-  // },
+  {
+    src: wireframe03,
+    description:
+      "This game uses Computer Vision and the Google MediaPipe library to track hands and manipulate objects on the Monitor",
+  },
+  {
+    src: wireframe04,
+    description: "This was a practice portfolio website i was making",
+  },
+  {
+    src: wireframe05,
+    description: "This is a photography website i made for someone else",
+  },
   // {
   //   src: wireframe04,
   //   description: "",

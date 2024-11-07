@@ -1,31 +1,21 @@
 {
   "files": {
     "main.css": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css",
-    "main.js": "/Single_Page_Application_React.JS/static/js/main.f5b6f78b.js",
+    "main.js": "/Single_Page_Application_React.JS/static/js/main.e13435c7.js",
     "static/media/earth.glb": "/Single_Page_Application_React.JS/static/media/earth.f99a1cfac8467d1dfb32.glb",
-    "static/media/artpagePC.png": "/Single_Page_Application_React.JS/static/media/artpagePC.9a632478ca5296c80ad1.png",
+    "static/media/Recipe.mp4": "/Single_Page_Application_React.JS/static/media/Recipe.901fce3b74bb76c666ff.mp4",
     "static/media/plane.glb": "/Single_Page_Application_React.JS/static/media/plane.52b8b6710c6c3ca4367f.glb",
-    "static/media/revisedHomepage.png": "/Single_Page_Application_React.JS/static/media/revisedHomepage.ea1e2b6a6cabfc916e6f.png",
+    "static/media/Routes.mp4": "/Single_Page_Application_React.JS/static/media/Routes.57d78e06735346f3f93b.mp4",
     "static/media/hero.png": "/Single_Page_Application_React.JS/static/media/hero.32df0e5a396db0daec7c.png",
-    "static/media/artpageMobile.png": "/Single_Page_Application_React.JS/static/media/artpageMobile.413effe6dc665521c89c.png",
-    "static/media/PCHomePage.png": "/Single_Page_Application_React.JS/static/media/PCHomePage.f5a79b7c45c069d4ed69.png",
-    "static/media/PCEssayPage.png": "/Single_Page_Application_React.JS/static/media/PCEssayPage.4c946cbf89f4b5ca455a.png",
-    "static/media/profilePC.png": "/Single_Page_Application_React.JS/static/media/profilePC.c3b9ccd5eeb8051d52e5.png",
     "static/media/bhaghi.png": "/Single_Page_Application_React.JS/static/media/bhaghi.1362471924f8701fc09e.png",
     "static/media/TeacherRecord.jpg": "/Single_Page_Application_React.JS/static/media/TeacherRecord.3fc1bc585382a7745b79.jpg",
-    "static/media/PCDesignPage01.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage01.04b9d0db629bcdb8eea7.png",
-    "static/media/MobileHomePage.png": "/Single_Page_Application_React.JS/static/media/MobileHomePage.7ab96fc7f0a5d6c9b591.png",
-    "static/media/MobileEssayPage.png": "/Single_Page_Application_React.JS/static/media/MobileEssayPage.35856486ceab40a2510c.png",
-    "static/media/profileMobile.png": "/Single_Page_Application_React.JS/static/media/profileMobile.080e25082353395911b2.png",
-    "static/media/PCDesignPage02.png": "/Single_Page_Application_React.JS/static/media/PCDesignPage02.85fa8987f04afb19680b.png",
-    "static/media/errorPage.png": "/Single_Page_Application_React.JS/static/media/errorPage.b94fa95a22b72dd61e49.png",
     "index.html": "/Single_Page_Application_React.JS/index.html",
     "static/media/arrow.svg": "/Single_Page_Application_React.JS/static/media/arrow.63f801a2f276522a9886e4603b6e5bf1.svg",
     "main.bc3440f0.css.map": "/Single_Page_Application_React.JS/static/css/main.bc3440f0.css.map",
-    "main.f5b6f78b.js.map": "/Single_Page_Application_React.JS/static/js/main.f5b6f78b.js.map"
+    "main.e13435c7.js.map": "/Single_Page_Application_React.JS/static/js/main.e13435c7.js.map"
   },
   "entrypoints": [
     "static/css/main.bc3440f0.css",
-    "static/js/main.f5b6f78b.js"
+    "static/js/main.e13435c7.js"
   ]
 }
